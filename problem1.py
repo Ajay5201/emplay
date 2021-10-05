@@ -1,4 +1,4 @@
-def compute_the_final_single_digit_sum(num):
+def compute_the_final_single_digit_sum(num): #computes the last digit sum
     if num!=0:
         reminder=num%9
         if reminder==0:
@@ -8,5 +8,5 @@ def compute_the_final_single_digit_sum(num):
     else:
         return 0
 
-num=int(input("enter the number:"))
+num=int(input("Enter a number to compute:")) 
 print(compute_the_final_single_digit_sum(num))
